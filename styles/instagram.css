@@ -1,52 +1,18 @@
-/****************************
-* Clean Instagram 
-* with wide profile view 
-* working: March 2018
-*****************************/
-/* Remove fixed header */
-._tpnch{position: absolute;}
-
-
 /**********************
 * Wide (profile view)
 ***********************/
-/* Remove margin */
-._6d3hm, ._mnav9, ._tn0ps{margin: 0;}
-/* Increase items width */
-._mesn5{
-  max-width: 100%;
-  padding: 50px 0 0 0;
-  width: 100%;
-  margin: 0;
-}
+/* Remove margin between photos */
+.weEfm, ._bz0w {margin: 0;}
+/* Remove main pad & margin, increase width */
+.v9tJq {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 40px 0 0 0;
+    width: 100%;
+  }
 
 
-/**********************
-* Clean timeline 
-***********************/
-._s5vjd {background-color: #fafafa;border: none;}
-/* User info */
-._7b8eu {height: 60px;padding: 15px 5px;}
-/* Hide useless text */
-._1gmap, ._538w0, ._8oc6p ._hqmnd{color: #fafafa;}
-._72oww{color: #fafafa;}
-._8oc6p ._538w0:not(:last-of-type)::after{color: #fafafa;}
-/* hide/show likes, comments etc. */
-._ebcx9{opacity: 0;transition: opacity .4s;}
-._ebcx9:hover{opacity: 1;transition: opacity .4s;}
-/* Remove blank space */
-._s5vjd {margin-bottom: 0;}
-/* Hide "other options" buttons */
-.coreSpriteOptionsEllipsis{display: none;}
-/* Expand stories */
-._guwow{height: 68%!important;}
-._5w6wt {top: 5%;}
-
-/**********************
-* Others 
-***********************/
-/* useless */
-._ramrm{display: none;}
-._2e96w {border-top: none;}
-/* remove footer */
+/* Remove links in home */
+.SkY6J{display:none}
+/* Remove footer */
 footer{display: none;}
