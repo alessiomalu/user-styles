@@ -12,7 +12,81 @@
   }
 
 
-/* Remove links in home */
-.SkY6J{display:none}
-/* Remove footer */
-footer{display: none;}
+
+/**********************
+* Clean view
+***********************/
+footer,
+/* Sidebar links */
+.SkY6J,
+/* Sidebar */
+.COOzN,
+/* Comments & actions */
+.eo2As,
+/* Carousel dots */
+.ijCUd {
+  display: none;
+}
+
+
+/* Homepage (buggy) */
+
+/* ._1SP8R,
+.cGcGK,
+._8Rm4L {
+  margin: 0;
+  max-width:unset;
+  border: none;
+  padding: 0;
+}
+
+.Ppjfr {
+  display: none;
+}
+
+.cGcGK > div > div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+*/
+
+
+
+/**********************
+* Dark theme
+***********************
+
+body,
+.o64aR,
+._lz6s {
+  background: hsl(0,0%,10%);
+  color: hsl(0,0%,90%)
+}
+
+h1,
+a {
+  color: hsl(0,0%,95%) !important
+}
+
+span {
+  color: hsl(0,0%,60%) !important
+}
+
+._8Rm4L,
+.Ppjfr,
+.sH9wk {
+  background: hsl(0,0%,13%);
+  border-color: hsl(0,0%,20%)
+}
+
+._lz6s {border-color: hsl(0,0%,20%)}
+
+.nJAzx, 
+.nJAzx:visited,
+a.O4GlU,
+a.O4GlU:visited{ 
+  color: hsl(0,0%,90%);
+}
+
+*/

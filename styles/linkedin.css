@@ -1,0 +1,18 @@
+/**********************
+* Remove useless stuff
+***********************/
+/* Top ad */
+.ad-banner,
+/* Linkedin asking to buy premium */
+.premium-upsell-link,
+/* Right sidebar in home */
+aside.right-rail,
+/* bottom of left sidebar in mynetwork */
+.sticky.ember-view {
+  display: none;
+}
+
+/* Bigger newsfeed */
+.neptune-grid.three-column .core-rail {
+    width: 850px;
+}
